@@ -15,9 +15,22 @@ const TutorialScreen = ({ navigation }) => {
                     <Text className="text-black left-0 text-center text-sm font-medium leading-4" style={{ textAlign: 'center' }}>Chúng tôi cung cấp dịch vụ giao đồ ăn/ thức uống.</Text>
                     <Text className="text-black left-0 text-center text-sm font-medium leading-4" style={{ textAlign: 'center' }}>Chúng tôi chắc chắn bạn sẽ hài lòng với dịch vụ của chúng tôi</Text>
                 </View>
-                <View className="flex-1 justify-center">
-                    <TouchableOpacity onPress={goToLogIn} className="flex-1 justify-center" >
-                        <Text style={{ color: '#429F9E', fontWeight: 700, textAlign: 'center' }}>{"Đăng nhập ngay!"}</Text>
+                <View>
+                    <TouchableOpacity onPress={goToLogIn}>
+                        <Text
+                            style={{
+                                color: '#FFF',
+                                fontWeight: 700,
+                                textAlign: 'center',
+                                backgroundColor: '#FF4500',
+                                paddingVertical: 15,
+                                borderRadius: 5,
+                                marginTop:10,
+                                margin:50,
+                            }}
+                        >
+                            {"Đăng nhập"}
+                        </Text>
                     </TouchableOpacity>
                 </View>
             </SafeAreaView>
@@ -27,9 +40,22 @@ const TutorialScreen = ({ navigation }) => {
                     <Text className="text-black left-0 text-center text-sm font-medium leading-4" style={{ textAlign: 'center' }}>Đầu tiên bạn phải tạo một tài khoản</Text>
                     <Text className="text-black left-0 text-center text-sm font-medium leading-4" style={{ textAlign: 'center' }}>để trở thành thành viên của chúng tôi</Text>
                 </View>
-                <View className="flex-1 justify-center">
-                    <TouchableOpacity className="flex-1 justify-center" >
-                    <Text style={{ color: '#429F9E', fontWeight: 700, textAlign: 'center' }}>{"Đăng nhập ngay!"}</Text>
+                <View>
+                    <TouchableOpacity onPress={goToLogIn}>
+                        <Text
+                            style={{
+                                color: '#FFF',
+                                fontWeight: 700,
+                                textAlign: 'center',
+                                backgroundColor: '#FF4500',
+                                paddingVertical: 15,
+                                borderRadius: 5,
+                                marginTop:10,
+                                margin:50,
+                            }}
+                        >
+                            {"Đăng nhập"}
+                        </Text>
                     </TouchableOpacity>
                 </View>
             </SafeAreaView>
@@ -39,9 +65,22 @@ const TutorialScreen = ({ navigation }) => {
                     <Text className="text-black left-0 text-center text-sm font-medium leading-4" style={{ textAlign: 'center' }}>Sau khi tạo tài khoản, bạn có thể chọn món ăn</Text>
                     <Text className="text-black left-0 text-center text-sm font-medium leading-4" style={{ textAlign: 'center' }}>bạn muốn thêm vào giỏ hàng của bạn và tiến hành chấp nhận đặt món</Text>
                 </View>
-                <View className="flex-1 justify-center">
-                    <TouchableOpacity  className="flex-1 justify-center" >
-                    <Text style={{ color: '#429F9E', fontWeight: 700, textAlign: 'center' }}>{"Đăng nhập ngay!"}</Text>
+                <View>
+                    <TouchableOpacity onPress={goToLogIn}>
+                        <Text
+                            style={{
+                                color: '#FFF',
+                                fontWeight: 700,
+                                textAlign: 'center',
+                                backgroundColor: '#FF4500',
+                                paddingVertical: 15,
+                                borderRadius: 5,
+                                marginTop:10,
+                                margin:50,
+                            }}
+                        >
+                            {"Đăng nhập"}
+                        </Text>
                     </TouchableOpacity>
                 </View>
             </SafeAreaView>
@@ -51,9 +90,22 @@ const TutorialScreen = ({ navigation }) => {
                     <Text className="text-black left-0 text-center text-sm font-medium leading-4" style={{ textAlign: 'center' }}>Sau khi đặt món thành công</Text>
                     <Text className="text-black left-0 text-center text-sm font-medium leading-4" style={{ textAlign: 'center' }}>món ăn sẽ đến với bạn trong thời gian dự kiến!</Text>
                 </View>
-                <View className="flex-1 justify-center">
-                    <TouchableOpacity className="flex-1 justify-center" >
-                    <Text style={{ color: '#429F9E', fontWeight: 700, textAlign: 'center' }}>{"Đăng nhập ngay!"}</Text>
+                <View>
+                    <TouchableOpacity onPress={goToLogIn}>
+                        <Text
+                            style={{
+                                color: '#FFF',
+                                fontWeight: 700,
+                                textAlign: 'center',
+                                backgroundColor: '#FF4500',
+                                paddingVertical: 15,
+                                borderRadius: 5,
+                                marginTop:10,
+                                margin:50,
+                            }}
+                        >
+                            {"Đăng nhập"}
+                        </Text>
                     </TouchableOpacity>
                 </View>
             </SafeAreaView>
