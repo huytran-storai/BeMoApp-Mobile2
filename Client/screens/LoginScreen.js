@@ -7,15 +7,15 @@ import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view
 export default function LoginScreen() {
     const navigation = useNavigation();
     return (
-        <KeyboardAwareScrollView>
+        <KeyboardAwareScrollView scrollEnabled={false}>
           <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-            <View className="flex-1 bg-white" style={{ backgroundColor: '#429F9E' }}>
+            <View className="flex-1 bg-white h-screen" style={{ backgroundColor: '#ff7b00' }}>
               <SafeAreaView className="flex">
                 <View className="flex-row justify-center">
-                  <Image source={require("../assets/images/logo2.png")} style={{ width: 220, height: 200 }} />
+                  <Image source={require("../assets/images/logo2.png")} style={{ width: 220, height: 200,marginRight:15 }} />
                 </View>
               </SafeAreaView>
-              <View style={{ borderTopLeftRadius: 50, borderTopRightRadius: 50 }} className="flex-1 bg-white px-8 pt-8 h-screen">
+              <View style={{ borderTopLeftRadius: 50, borderTopRightRadius: 50 }} className="flex-1 bg-white px-8 pt-8 ">
                 <View className="form space-y-2">
                   <Text className="text-gray-700 ml-4">Email</Text>
                   <TextInput
@@ -39,9 +39,9 @@ export default function LoginScreen() {
                     <Text className="text-gray-700 mb-5">Quên mật khẩu?</Text>
                   </TouchableOpacity>
                   <TouchableOpacity 
-                    className="py-3 bg-yellow-400 rounded-xl">
+                    className="py-3 bg-orange-400 rounded-xl">
                     <Text
-                      className="text-xl font-bold text-center text-gray-700"
+                      className="text-xl font-bold text-center text-white"
                     >
                       Đăng nhập
                     </Text>
@@ -54,9 +54,9 @@ export default function LoginScreen() {
                 </View>
                 <View className="flex-row justify-center mt-7">
                   <Text className="text-gray-500 font-semibold">Bạn chưa có tài khoản?</Text>
-                  {/* <TouchableOpacity onPress={() => navigation.navigate('SignUp')}>
+                  <TouchableOpacity onPress={() => navigation.navigate('SignUp')}>
                     <Text className="font-semibold text-yellow-500">Đăng kí</Text>
-                  </TouchableOpacity> */}
+                  </TouchableOpacity>
                 </View>
               </View>
             </View>

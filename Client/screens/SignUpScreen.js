@@ -13,14 +13,14 @@ import { useNavigation } from '@react-navigation/native';
 export default function SignUpScreen() {
     const navigation = useNavigation();
     return (
-        <KeyboardAwareScrollView behavior={Platform.OS === 'ios' ? 'padding' : 'height'} style={{ flex: 1 }}>
+        <KeyboardAwareScrollView scrollEnabled={false}>
             <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-                <View className="flex-1 bg-white" style={{ backgroundColor: '#429F9E' }}>
+                <View className="flex-1 bg-white h-screen" style={{ backgroundColor: '#ff7b00' }}>
                     <SafeAreaView className="flex">
                         <View className="flex-row justify-start">
                             <TouchableOpacity
                                 onPress={() => navigation.goBack()}
-                                className="bg-yellow-400 p-2 rounded-tr-2xl rounded-bl-2xl ml-4"
+                                className="bg-white p-2 rounded-tr-2xl rounded-bl-2xl ml-4"
                             >
                                 <ArrowLeftIcon size="20" color="black" />
                             </TouchableOpacity>
@@ -28,7 +28,7 @@ export default function SignUpScreen() {
                         <View className="flex-row justify-center">
                         </View>
                     </SafeAreaView>
-                    <View className="flex-1 bg-white px-8 pt-8 h-screen"
+                    <View className="flex-1 bg-white px-8 pt-8"
                         style={{ borderTopLeftRadius: 50, borderTopRightRadius: 50 }}
                     >
                         <View className="form space-y-2">
@@ -75,9 +75,9 @@ export default function SignUpScreen() {
                             />
                             
                             <TouchableOpacity
-                                className="py-3 bg-yellow-400 rounded-xl" 
+                                className="py-3 bg-orange-400 rounded-xl" 
                             >
-                                <Text className="font-xl font-bold text-center text-gray-700">
+                                <Text className="font-xl font-bold text-center text-white">
                                     Đăng kí
                                 </Text>
                             </TouchableOpacity>
