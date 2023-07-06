@@ -22,10 +22,10 @@ const TutorialScreen = ({ navigation }) => {
                                 color: '#FFF',
                                 fontWeight: 700,
                                 textAlign: 'center',
-                                backgroundColor: '#FF4500',
-                                paddingVertical: 15,
-                                borderRadius: 5,
-                                marginTop:10,
+                                backgroundColor: '#ff7b00',
+                                paddingVertical: 5,
+                                paddingHorizontal:10,
+                                marginTop:20,
                                 margin:50,
                             }}
                         >
@@ -47,10 +47,10 @@ const TutorialScreen = ({ navigation }) => {
                                 color: '#FFF',
                                 fontWeight: 700,
                                 textAlign: 'center',
-                                backgroundColor: '#FF4500',
-                                paddingVertical: 15,
-                                borderRadius: 5,
-                                marginTop:10,
+                                backgroundColor: '#ff7b00',
+                                paddingVertical: 5,
+                                paddingHorizontal:10,
+                                marginTop:20,
                                 margin:50,
                             }}
                         >
@@ -72,10 +72,10 @@ const TutorialScreen = ({ navigation }) => {
                                 color: '#FFF',
                                 fontWeight: 700,
                                 textAlign: 'center',
-                                backgroundColor: '#FF4500',
-                                paddingVertical: 15,
-                                borderRadius: 5,
-                                marginTop:10,
+                                backgroundColor: '#ff7b00',
+                                paddingVertical: 5,
+                                paddingHorizontal:10,
+                                marginTop:20,
                                 margin:50,
                             }}
                         >
@@ -97,10 +97,10 @@ const TutorialScreen = ({ navigation }) => {
                                 color: '#FFF',
                                 fontWeight: 700,
                                 textAlign: 'center',
-                                backgroundColor: '#FF4500',
-                                paddingVertical: 15,
-                                borderRadius: 5,
-                                marginTop:10,
+                                backgroundColor: '#ff7b00',
+                                paddingVertical: 5,
+                                paddingHorizontal:10,
+                                marginTop:20,
                                 margin:50,
                             }}
                         >
